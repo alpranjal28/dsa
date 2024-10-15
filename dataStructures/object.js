@@ -1,23 +1,23 @@
 const obj = {
-  name: "John",
+  firstName: "John",
   age: 30,
   gender: "male",
   "address-key": "123 Main St",
   sayHello: function () {
-    console.log("Hello", this.name);
+    console.log("Hello", this.firstName);
   },
 };
 
 console.log("obj", obj);
-console.log("obj.name", obj.name);
+console.log("obj.firstName", obj.firstName);
 console.log("obj.age", obj[`age`]);
 console.log("obj.address-key", obj[`address-key`]);
 console.log("obj.sayHello", obj.sayHello);
 obj.sayHello();
 
 // using object destructuring
-const { name, age } = obj;
-console.log("name", name);
+const { firstName, age } = obj;
+console.log("firstName", firstName);
 console.log("age", age);
 
 // using object spread
