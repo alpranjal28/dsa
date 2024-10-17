@@ -1,3 +1,10 @@
+// Sets are collections of unique values, where each value is only stored once
+// Sets are iterable, meaning they can be looped over with a for-of loop
+// Sets have a size property, which returns the number of values in the set
+// Sets have a clear() method, which removes all the values from the set
+// Sets have a delete() method, which removes a specific value from the set
+// Sets have a has() method, which returns a boolean indicating whether a given value is in the set
+
 // Create a new Set
 const set = new Set();
 
